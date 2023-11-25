@@ -1,0 +1,28 @@
+:root {
+  --color-bg-nav: #E6E6E6;
+  --color-text-main: #292929;
+  --color-text-ligth: #7A7A7A;
+  --color-accent: #E51717;
+
+  --font-body: Montserrat, sans-serif;
+
+  --font-size-base: 16px;
+  --font-size-p: 18px;
+  --font-size-h1: 48px;
+  --font-size-h2: 40px;
+  --font-size-h4: 24px;
+  --font-size-h5: 18px;
+
+
+  --container-padding: 16px;
+
+  @media screen and (min-width: 728px){
+    --font-size-h1: 54px;
+    --font-size-h2: 48px;
+    --font-size-h4: var(--font-size-p);
+    --font-size-h5: var(--font-size-base);
+
+    --container-padding: 55px;
+  }
+}
+

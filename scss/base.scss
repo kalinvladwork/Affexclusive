@@ -1,0 +1,84 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+html, body {
+  min-height: 100vh;
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+
+}
+
+body {
+  font-family: var(--font-body);
+  font-size: var(--font-size-base);
+  color: var(--color-text-main);
+  background: #ffffff;
+}
+
+ul {
+  margin: 0;
+  padding: 0 0 0 18px;
+
+  li {
+    margin-bottom: 10px;
+    line-height: 150%;
+  }
+
+  li::marker {
+    font-size: 0.6em;
+  }
+}
+
+h1 {
+  margin: 0 0 20px 0;
+}
+
+h2 {
+  margin: 0 0 20px 0;
+}
+
+p {
+  font-size: var(--font-size-p);
+  font-weight: 400;
+  line-height: 150%;
+  color: var(--color-text-main);
+  margin: 0 0 20px 0;
+}
+
+.main-container {
+  padding-bottom: 40px;
+
+  @media screen and (min-width: 728px) {
+    padding-bottom: 0;
+  }
+}
+
+.u-h1 {
+  font-size: var(--font-size-h1);
+  font-weight: 600;
+}
+
+.u-h2 {
+  font-size: var(--font-size-h2);
+  font-weight: 500;
+}
+
+.u-h4 {
+  font-size: var(--font-size-h4);
+  font-weight: 500;
+}
+
+.u-h5 {
+  font-size: var(--font-size-base);
+  font-weight: 600;
+}
+
+.u-font-size-base {
+  font-size: var(--font-size-base);
+}
+
+.u-text-center {
+  text-align: center;
+}

@@ -1,0 +1,24 @@
+.nav-mobile {
+  margin-top: 120px;
+  margin-bottom: 48px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 14px;
+  gap: 24px;
+  border-radius: 25px;
+  background: #E6E6E6;
+  text-align: center;
+
+  @media screen and (min-width: 728px) {
+    display: none;
+  }
+}
+
+.nav-mobile-element {
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--color-text-main);
+  text-decoration: none;
+}
